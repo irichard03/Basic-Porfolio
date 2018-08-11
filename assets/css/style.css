@@ -1,25 +1,15 @@
+#whitespace{
+    background-color:white;
+}
+
 #topperMid{
     background-color:white;
     height:60px;
     margin-top: -10px;
     width: 960px;
     float: center;
-    
-}
-
-#leftPad{
-    background-color:white;
-    height:60px;
-    margin-top: -10px;
-    float:left;
-    
-}
-
-#rightPad{
-    background-color:white;
-    height:60px;
-    margin-top: -10px;
-    float:right;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -27,7 +17,7 @@ h1{
    float:left;
     width: 25%;
     background-color:#4aaaa5;
-    margin:0;
+    margin:0px;
     height: 40px;
     padding:10px;
     color: white;
@@ -42,4 +32,56 @@ a{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin-top:20px;
     color:#777777;
+}
+
+#main{
+    width:960px;
+    background-color:white;
+    margin-top:40px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+}
+
+h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: clear;
+}
+
+
+#submain{
+   
+    width: 920px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right:10px;
+    border-top: solid grey;
+}
+
+#selfie{
+    float:left;
+}
+
+p{
+    float:left;
+    width:600px;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+#greenstripe{
+    margin-top:10px;
+    background-color: greenyellow;
+    height:20px;
+}
+
+#greyspace{
+    margin-top:0px;
+    background-color: darkgray;
+    height:40px;
 }
