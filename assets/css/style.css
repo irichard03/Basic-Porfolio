@@ -1,29 +1,3 @@
-#whitespace{
-    background-color:white;
-}
-
-#topperMid{
-    background-color:white;
-    height:60px;
-    margin-top: -10px;
-    width: 960px;
-    float: center;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-h1{
-   float:left;
-    width: 25%;
-    background-color:#4aaaa5;
-    margin:0px;
-    height: 40px;
-    padding:10px;
-    color: white;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
 a{
     float: right;
     text-align: center;
@@ -34,44 +8,17 @@ a{
     color:#777777;
 }
 
-#main{
-    width:960px;
-    background-color:white;
-    margin-top:40px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 400px;
+body{
+    margin:0px;
 }
 
-h2{
-    padding-top: 20px;
-    padding-bottom: 10px;
-    margin-left: 20px;
-    color: #4aaaa5;
+
+form{
+    width: 100%;
+    height: 100%;
+    color:#777777;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    float: clear;
-}
-
-
-#submain{
-   
-    width: 920px;
-    background-color: white;
-    padding: 10px;
-    margin-left: 10px;
-    margin-right:10px;
-    border-top: solid grey;
-}
-
-#selfie{
-    float:left;
-}
-
-p{
-    float:left;
-    width:600px;
-    margin: 20px;
-    margin-bottom: 10px;
+    display: inline-block;
 }
 
 #greyspace{
@@ -89,7 +36,102 @@ p{
 }
 
 
-
-body{
+h1{
+   float:left;
+    width: 25%;
+    background-color:#4aaaa5;
     margin:0px;
+    height: 40px;
+    padding:10px;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: clear;
+}
+
+h3{
+   padding: 0px; 
+   margin-bottom: 5px;
+   margin-top: 0px;
+}
+
+#main{
+    width:960px;
+    background-color:white;
+    margin-top:40px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+
+#message{
+    width: 98%;    
+    height: 25%;
+    margin: 0px 0px 20px 0px;
+    border: solid 1px #cccccc;
+    outline: none;
+    text-align: top;
+    resize: top;
+    overflow: auto;
+
+   
+}
+
+
+#name,#email{
+    padding-bottom: 10px;
+    width: 98%;
+    border:solid 1px #cccccc;
+}
+
+p{
+    float:left;
+    width:600px;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+#selfie{
+    float:left;
+}
+
+#submain{
+    width: 920px;
+    height: 80%;
+    background-color: white;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right:10px;
+    border-top: solid #cccccc;
+    overflow: auto;
+    display: inline-block;
+}
+
+#submit{
+    margin: 20px 0px 20px 0px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: none;
+    padding: 10px 10px;
+}
+
+#topperMid{
+    background-color:white;
+    height:60px;
+    margin-top: -10px;
+    width: 960px;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#whitespace{
+    background-color:white;
 }
