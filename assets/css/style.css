@@ -135,3 +135,11 @@ p{
 #whitespace{
     background-color:white;
 }
+
+#projects{
+    margin: 0px 0px 0px 0px;
+    background-color: black;
+    height: 98%;
+    width: 100%;
+}
+
