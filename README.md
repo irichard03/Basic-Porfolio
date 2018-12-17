@@ -1,4 +1,4 @@
-# Basic-Porfolio
+# Basic-Portfolio
 
 ------
 This is was the first excercise for my UT-Austin coding bootcamp.
